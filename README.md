@@ -1,0 +1,1 @@
+# Microsoft.Practices.EnterpriseLibrary.Common.Standard
