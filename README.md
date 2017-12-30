@@ -10,7 +10,7 @@ Because my software company still heavily uses some of the p&p blocks, I've deci
 
 ## Installation
 ~~~
-install-package Microsoft.Practices.EnterpriseLibrary.Common.Standard
+install-package Rolosoft.Practices.EnterpriseLibrary.Common.Standard
 ~~~
 
 ## Caveats
