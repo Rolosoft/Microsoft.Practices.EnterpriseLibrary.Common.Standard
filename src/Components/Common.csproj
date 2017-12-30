@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rolosoft</Authors>
+    <Company>Rolosoft</Company>
+    <Copyright>Copyright © Rolosoft Ltd 2017</Copyright>
+    <RepositoryUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.Common.Standard</RepositoryUrl>
+    <PackageIconUrl>https://rolosoft.blob.core.windows.net/common/rolosoft128x128.png</PackageIconUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>entlib entlib6 Enterprise Library common core LOB</PackageTags>
+    <PackageReleaseNotes>Initial commit</PackageReleaseNotes>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <FileVersion>7.0.0.0</FileVersion>
+    <Description>Enterprise Library Shared Library</Description>
+    <Product>Enterprise Library Shared Library</Product>
+    <Version>7.0.0</Version>
+    <PackageId>Microsoft.Practices.EnterpriseLibrary.Common.Standard</PackageId>
+    <PackageProjectUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.Common.Standard</PackageProjectUrl>
+    <RootNamespace>Microsoft.Practices.EnterpriseLibrary.Common</RootNamespace>
+    <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Microsoft.Practices.EnterpriseLibrary.Common.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Common.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Common.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuration\EnterpriseLibraryContainer.cs" />
+    <Compile Remove="Configuration\SectionChangedEventArgs.cs" />
+    <Compile Remove="Instrumentation\AbstractInstallerBuilder.cs" />
+    <Compile Remove="Instrumentation\EventLogInstallerBuilder.cs" />
+    <Compile Remove="Instrumentation\PerformanceCounterInstallerBuilder.cs" />
+    <Compile Remove="Instrumentation\ReflectionInstaller.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0-preview1-25914-04" />
+  </ItemGroup>
+
+</Project>
