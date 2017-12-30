@@ -1,7 +1,7 @@
 # Microsoft.Practices.EnterpriseLibrary.Common.Standard
 **Microsoft.Practices.EnterpriseLibrary.Common updated for 2018.**
 
-[![rolosoft_public_packages MyGet Build Status](https://www.myget.org/BuildSource/Badge/rolosoft_public_packages?identifier=92916084-a632-4305-ba2a-74594177c75a)](https://www.myget.org/)
+[![rolosoft_public_packages MyGet Build Status](https://www.myget.org/BuildSource/Badge/rolosoft_public_packages?identifier=e5f969e7-40bd-4359-b4c3-e7912076d742)](https://www.myget.org/)
 
 ## About
 Microsoft Patterns and Practices (p&p) Enterprise Library came to an unfortunate end (i.e. it was dropped by Microsoft).
