@@ -16,12 +16,12 @@
     <Description>Enterprise Library Shared Library</Description>
     <Product>Enterprise Library Shared Library</Product>
     <Version>7.0.0</Version>
-    <PackageId>Microsoft.Practices.EnterpriseLibrary.Common.Standard</PackageId>
+    <PackageId>Rolosoft.Practices.EnterpriseLibrary.Common.Standard</PackageId>
     <PackageProjectUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.Common.Standard</PackageProjectUrl>
     <RootNamespace>Microsoft.Practices.EnterpriseLibrary.Common</RootNamespace>
     <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common</AssemblyName>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Microsoft.Practices.EnterpriseLibrary.Common.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Rolosoft.Practices.EnterpriseLibrary.Common.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
